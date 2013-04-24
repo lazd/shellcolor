@@ -1,13 +1,13 @@
 var expect = require('chai').expect;
-var shellColor = require('../');
+var shellcolor = require('../');
 
 function logColorMessage(message) {
-	var message = shellColor(message)
+	var message = shellcolor(message)
 	console.log(message);
 	return message;
 }
 
-describe('#shellColor()', function() {
+describe('#shellcolor()', function() {
 	it('should color text', function() {
 		var message = logColorMessage('<red>Red</red>');
 		expect(message).to.equal('\u001b[31mRed\u001b[0m');

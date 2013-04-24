@@ -1,26 +1,26 @@
-# shellColor  [![Build status][travis-image]][travis] [![Code coverage status][coveralls-image]][coveralls]
+# shellcolor  [![Build status][travis-image]][travis] [![Code coverage status][coveralls-image]][coveralls]
 > ANSI colors to your Node.js app's stdout, stderror, and logs
 
 ## Installation
 
-Get shellColor with npm.
+Get shellcolor with npm.
 
 ```javascript
-npm install shellColor --save
+npm install shellcolor --save
 ```
 
 ## Usage
 
-Pass a bland string to `shellColor()`, get a colorful string back.
+Pass a bland string to `shellcolor()`, get a colorful string back.
 
 ```javascript
-var shellColor = require('shellColor');
+var shellcolor = require('shellcolor');
 
-console.log(shellColor('<b><green>Success:<green></b> Process started.'));
+console.log(shellcolor('<b><green>Success:<green></b> Process started.'));
   
-console.warn(shellColor('<b><yellow>Error:</yellow></b> Something seems wrong....'));
+console.warn(shellcolor('<b><yellow>Error:</yellow></b> Something seems wrong....'));
 
-console.error(shellColor('<b><red>Error:</red></b> Something broke.'));
+console.error(shellcolor('<b><red>Error:</red></b> Something broke.'));
 ```
 
 ### Tags
@@ -55,11 +55,11 @@ The following tags are available:
 
 ## License
 
-shellColor is licensed under the permissive BSD license.
+shellcolor is licensed under the permissive BSD license.
 
 
-[coveralls]: https://coveralls.io/r/lazd/shellColor
-[coveralls-image]: https://coveralls.io/repos/lazd/shellColor/badge.png?branch=master
+[coveralls]: https://coveralls.io/r/lazd/shellcolor
+[coveralls-image]: https://coveralls.io/repos/lazd/shellcolor/badge.png?branch=master
 
-[travis]: http://travis-ci.org/lazd/shellColor
-[travis-image]: https://secure.travis-ci.org/lazd/shellColor.png?branch=master
+[travis]: http://travis-ci.org/lazd/shellcolor
+[travis-image]: https://secure.travis-ci.org/lazd/shellcolor.png?branch=master

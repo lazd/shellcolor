@@ -1,6 +1,6 @@
 /*
-	shellColor - ANSI colors for Node.js
-	https://github.com/lazd/shellColor
+	shellcolor - ANSI colors for Node.js
+	https://github.com/lazd/shellcolor
 	
 	Copyright (c) 2013 Larry Davis; Licensed BSD
 */
@@ -42,7 +42,7 @@
 	};
 
 	// A mixin that provides the colorize method
-	var shellColor = function shellColor(message) {
+	var shellcolor = function shellcolor(message) {
 		if (!message) return '';
 	
 		// maintain a stack of our current tags
@@ -98,16 +98,16 @@
 	
 	if (typeof module !== 'undefined' && module.exports) {
 		// Node.js Support
-		module.exports = shellColor;
+		module.exports = shellcolor;
 	}
 	else if (typeof global.define === 'function') {
 		(function(define) {
 			// AMD Support
-			define(function() { return shellColor; });
+			define(function() { return shellcolor; });
 		}(global.define));
 	}
 	else {
 		// Browser support
-		global.shellColor = shellColor;
+		global.shellcolor = shellcolor;
 	}
 }(this));
