@@ -1,0 +1,32 @@
+{
+  "name": "shellColor",
+  "version": "0.1.0",
+  "author": "Larry Davis",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazd/shellColor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lazd/shellColor/issues"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.7",
+    "grunt": "~0.4.1",
+    "grunt-benchmark": "git://github.com/lazd/grunt-benchmark.git",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-mocha-cov": "0.0.3",
+    "chai": "~1.5.0"
+  },
+  "scripts": {
+    "blanket": {
+      "pattern": [
+        "index.js"
+      ]
+    },
+    "test": "grunt test"
+  }
+}
