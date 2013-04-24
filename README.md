@@ -28,29 +28,29 @@ console.error(shellcolor('<b><red>Error:</red></b> Something broke.'));
 The following tags are available:
 
 | Tag                 | Description        | ANSI |
-| ------------------- | ------------------ | ----:|
-| **`<black>`**       |         black text |   30 |
-| **`<red>`**         |           red text |   31 |
-| **`<green>`**       |         green text |   32 |
-| **`<yellow>`**      |        yellow text |   33 |
-| **`<blue>`**        |          blue text |   34 |
-| **`<magenta>`**     |       magenta text |   35 |
-| **`<cyan>`**        |          cyan text |   36 |
-| **`<white>`**       |         white text |   37 |
-| **`<grey>`**        |          grey text |   90 |
-| **`<bg-black>`**    |   black background |   40 |
-| **`<bg-red>`**      |     red background |   41 |
-| **`<bg-green>`**    |   green background |   42 |
-| **`<bg-yellow>`**   |  yellow background |   43 |
-| **`<bg-blue>`**     |    blue background |   44 |
+|:------------------- |:------------------ |:----:|
+| **`<black>`**       | black text         |   30 |
+| **`<red>`**         | red text           |   31 |
+| **`<green>`**       | green text         |   32 |
+| **`<yellow>`**      | yellow text        |   33 |
+| **`<blue>`**        | blue text          |   34 |
+| **`<magenta>`**     | magenta text       |   35 |
+| **`<cyan>`**        | cyan text          |   36 |
+| **`<white>`**       | white text         |   37 |
+| **`<grey>`**        | grey text          |   90 |
+| **`<bg-black>`**    | black background   |   40 |
+| **`<bg-red>`**      | red background     |   41 |
+| **`<bg-green>`**    | green background   |   42 |
+| **`<bg-yellow>`**   | yellow background  |   43 |
+| **`<bg-blue>`**     | blue background    |   44 |
 | **`<bg-magenta>`**  | magenta background |   45 |
-| **`<bg-cyan>`**     |    cyan background |   46 |
-| **`<bg-white>`**    |   white background |   47 |
-| **`<bg-grey>`**     |    grey background |  100 |
-| **`<b>`**           |               bold |    1 |
-| **`<i>`**           |            italics |    3 |
-| **`<u>`**           |          underline |    4 |
-| **`<blink>`**       |         flash text |    5 |
+| **`<bg-cyan>`**     | cyan background    |   46 |
+| **`<bg-white>`**    | white background   |   47 |
+| **`<bg-grey>`**     | grey background    |  100 |
+| **`<b>`**           | bold               |    1 |
+| **`<i>`**           | italics            |    3 |
+| **`<u>`**           | underline          |    4 |
+| **`<blink>`**       | flash text         |    5 |
 
 
 ## License
