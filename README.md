@@ -1,4 +1,4 @@
-# shellColor
+# shellColor  [![Build status][travis-image]][travis] [![Code coverage status][coveralls-image]][coveralls]
 > ANSI colors to your Node.js app's stdout, stderror, and logs
 
 ## Installation
@@ -56,3 +56,10 @@ The following tags are available:
 ## License
 
 shellColor is licensed under the permissive BSD license.
+
+
+[coveralls]: https://coveralls.io/r/lazd/shellColor
+[coveralls-image]: https://coveralls.io/repos/lazd/shellColor/badge.png?branch=master
+
+[travis]: http://travis-ci.org/lazd/shellColor
+[travis-image]: https://secure.travis-ci.org/lazd/shellColor.png?branch=master
