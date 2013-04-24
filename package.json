@@ -1,7 +1,7 @@
 {
   "name": "shellColor",
   "version": "0.1.0",
-  "author": "Larry Davis",
+  "author": "Larry Davis <lazdnet@gmail.com>",
   "license": "BSD",
   "repository": {
     "type": "git",
@@ -9,6 +9,9 @@
   },
   "bugs": {
     "url": "https://github.com/lazd/shellColor/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
   },
   "devDependencies": {
     "grunt-cli": "~0.1.7",

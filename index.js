@@ -1,7 +1,7 @@
 /*
 	shellColor - ANSI colors for Node.js
-
 	https://github.com/lazd/shellColor
+	
 	Copyright (c) 2013 Larry Davis; Licensed BSD
 */
 (function(global) {
