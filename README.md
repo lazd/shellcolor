@@ -27,30 +27,30 @@ console.error(shellcolor('<b><red>Error:</red></b> Something broke.'));
 
 The following tags are available:
 
-| Tag                | ANSI |
-| ------------------ | ----:|
-| **`<black>`**      |   30 |
-| **`<red>`**        |   31 |
-| **`<green>`**      |   32 |
-| **`<yellow>`**     |   33 |
-| **`<blue>`**       |   34 |
-| **`<magenta>`**    |   35 |
-| **`<cyan>`**       |   36 |
-| **`<white>`**      |   37 |
-| **`<grey>`**       |   90 |
-| **`<bg-black>`**   |   40 |
-| **`<bg-red>`**     |   41 |
-| **`<bg-green>`**   |   42 |
-| **`<bg-yellow>`**  |   43 |
-| **`<bg-blue>`**    |   44 |
-| **`<bg-magenta>`** |   45 |
-| **`<bg-cyan>`**    |   46 |
-| **`<bg-white>`**   |   47 |
-| **`<bg-grey>`**    |  100 |
-| **`<b>`**          |    1 |
-| **`<i>`**          |    3 |
-| **`<u>`**          |    4 |
-| **`<blink>`**      |    5 |
+| Tag                 | Description        | ANSI |
+| ------------------- | ------------------ | ----:|
+| **`<black>`**       |         black text |   30 |
+| **`<red>`**         |           red text |   31 |
+| **`<green>`**       |         green text |   32 |
+| **`<yellow>`**      |        yellow text |   33 |
+| **`<blue>`**        |          blue text |   34 |
+| **`<magenta>`**     |       magenta text |   35 |
+| **`<cyan>`**        |          cyan text |   36 |
+| **`<white>`**       |         white text |   37 |
+| **`<grey>`**        |          grey text |   90 |
+| **`<bg-black>`**    |   black background |   40 |
+| **`<bg-red>`**      |     red background |   41 |
+| **`<bg-green>`**    |   green background |   42 |
+| **`<bg-yellow>`**   |  yellow background |   43 |
+| **`<bg-blue>`**     |    blue background |   44 |
+| **`<bg-magenta>`**  | magenta background |   45 |
+| **`<bg-cyan>`**     |    cyan background |   46 |
+| **`<bg-white>`**    |   white background |   47 |
+| **`<bg-grey>`**     |    grey background |  100 |
+| **`<b>`**           |               bold |    1 |
+| **`<i>`**           |            italics |    3 |
+| **`<u>`**           |          underline |    4 |
+| **`<blink>`**       |         flash text |    5 |
 
 
 ## License
