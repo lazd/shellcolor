@@ -27,30 +27,30 @@ console.error(shellcolor('<b><red>Error:</red></b> Something broke.'));
 
 The following tags are available:
 
-| Tag               | Affects     | ANSI |
-| ------------- --- | ----------- | ----:|
-| **`black`**       |        text |   30 |
-| **`red`**         |        text |   31 |
-| **`green`**       |        text |   32 |
-| **`yellow`**      |        text |   33 |
-| **`blue`**        |        text |   34 |
-| **`magenta`**     |        text |   35 |
-| **`cyan`**        |        text |   36 |
-| **`white`**       |        text |   37 |
-| **`grey`**        |        text |   90 |
-| **`bg-black`**    |  background |   40 |
-| **`bg-red`**      |  background |   41 |
-| **`bg-green`**    |  background |   42 |
-| **`bg-yellow`**   |  background |   43 |
-| **`bg-blue`**     |  background |   44 |
-| **`bg-magenta`**  |  background |   45 |
-| **`bg-cyan`**     |  background |   46 |
-| **`bg-white`**    |  background |   47 |
-| **`bg-grey`**     |  background |  100 |
-| **`b`**           |        text |    1 |
-| **`i`**           |        text |    3 |
-| **`u`**           |        text |    4 |
-| **`blink`**       |        both |    5 |
+| Tag                | ANSI |
+| ------------------ | ----:|
+| **`<black>`**      |   30 |
+| **`<red>`**        |   31 |
+| **`<green>`**      |   32 |
+| **`<yellow>`**     |   33 |
+| **`<blue>`**       |   34 |
+| **`<magenta>`**    |   35 |
+| **`<cyan>`**       |   36 |
+| **`<white>`**      |   37 |
+| **`<grey>`**       |   90 |
+| **`<bg-black>`**   |   40 |
+| **`<bg-red>`**     |   41 |
+| **`<bg-green>`**   |   42 |
+| **`<bg-yellow>`**  |   43 |
+| **`<bg-blue>`**    |   44 |
+| **`<bg-magenta>`** |   45 |
+| **`<bg-cyan>`**    |   46 |
+| **`<bg-white>`**   |   47 |
+| **`<bg-grey>`**    |  100 |
+| **`<b>`**          |    1 |
+| **`<i>`**          |    3 |
+| **`<u>`**          |    4 |
+| **`<blink>`**      |    5 |
 
 
 ## License
