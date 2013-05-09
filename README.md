@@ -1,5 +1,5 @@
 # shellcolor  [![Build status][travis-image]][travis] [![Code coverage status][coveralls-image]][coveralls]
-> ANSI colors to your Node.js app's stdout, stderror, and logs
+> ANSI colors for your Node.js app's stdout, stderror, and logs
 
 ## Installation
 
